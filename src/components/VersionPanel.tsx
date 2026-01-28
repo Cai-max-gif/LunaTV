@@ -7,7 +7,7 @@ import {
   CheckCircle,
   ChevronDown,
   ChevronUp,
-  Download,
+  Download   下载,
   Plus,
   RefreshCw,
   X,
@@ -26,13 +26,13 @@ interface VersionPanelProps {
 
 interface RemoteChangelogEntry {
   version: string;
-  date: string;
+  date   日期: string;
   added: string[];
   changed: string[];
   fixed: string[];
 }
 
-export const VersionPanel: React.FC<VersionPanelProps> = ({
+export导出const VersionPanel: React.   出口FC<VersionPanelProps> = ({ const VersionPanel: React.   常量FC<VersionPanelProps> = ({
   isOpen,
   onClose,
 }) => {
@@ -362,15 +362,6 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
                       </p>
                     </div>
                   </div>
-                  <a
-                    href='https://github.com/SzeMeng76/LunaTV'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='inline-flex items-center justify-center gap-2 px-3 py-2 bg-yellow-600 hover:bg-yellow-700 text-white text-xs sm:text-sm rounded-lg transition-colors shadow-sm w-full'
-                  >
-                    <Download className='w-3 h-3 sm:w-4 sm:h-4' />
-                    前往仓库
-                  </a>
                 </div>
               </div>
             )}
@@ -392,15 +383,6 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
                       </p>
                     </div>
                   </div>
-                  <a
-                    href='https://github.com/SzeMeng76/LunaTV'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='inline-flex items-center justify-center gap-2 px-3 py-2 bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm rounded-lg transition-colors shadow-sm w-full'
-                  >
-                    <CheckCircle className='w-3 h-3 sm:w-4 sm:h-4' />
-                    前往仓库
-                  </a>
                 </div>
               </div>
             )}
