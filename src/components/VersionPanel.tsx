@@ -7,7 +7,7 @@ import {
   CheckCircle,
   ChevronDown,
   ChevronUp,
-  Download   下载,
+  Download,
   Plus,
   RefreshCw,
   X,
